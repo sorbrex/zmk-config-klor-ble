@@ -60,7 +60,7 @@
                       &kp LEFT_SHIFT  &kp LEFT_GUI  &mo 1  &trans      &trans  &kp RET  &kp SPACE  &lt 2 BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_AC_FORWARD C_AC_BACK>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         NUMB {
@@ -82,7 +82,7 @@
             bindings = <
         &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT                        &kp CARET      &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &trans  &kp N1           &kp N2       &kp N3     &kp N4      &kp N5                             &kp MINUS      &kp EQUAL      &kp LS(COLON)  &kp LS(LBRC)          &kp LS(RBRC)           &trans
-&trans  &kp N6           &kp N7       &kp N8     &kp N9      &kp N0       &kp C_MUTE  &kp K_PP  &kp LS(UNDER)  &kp LS(PLUS)   &kp GRAVE      &kp LBKT              &kp RBKT               &trans
+&trans  &kp N6           &kp N7       &kp N8     &kp N9      &kp N0       &kp C_PP    &kp K_PP  &kp LS(UNDER)  &kp LS(PLUS)   &kp GRAVE      &kp LBKT              &kp RBKT               &trans
                                       &kp LCTRL  &kp LGUI    &trans       &trans      &trans    &kp ENTER      &mo 3          &kp BSPC
             >;
 
